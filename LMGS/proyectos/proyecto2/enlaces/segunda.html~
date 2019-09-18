@@ -1,0 +1,22 @@
+<!DOCTYPE html/>
+
+<!-- Segunda pagina del enlace -->
+
+<html>
+<head>
+
+<meta charset="UTF-8"/>
+<meta name="description" content="Practica 1: segunda"/>
+
+<title>Segunda</title>
+
+</head>
+
+<body>
+
+<h1>Has llegado a la sección</h1>
+
+<a href="index.html" >Volver</a>
+
+</body>
+</html>

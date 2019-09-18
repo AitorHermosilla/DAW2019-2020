@@ -17,7 +17,7 @@
 <body>
 
 
-<h1>Hola Mundo!</h1>
+<a name="enlaceinterno"><h1>Hola Mundo!</h1></a>
 <p>Esta es mi primera página web</p>
 
 <hr/>
@@ -152,4 +152,9 @@
 	</tr>
 </table>
 
+<h2>ENLACES</h2>
+
+<a href="#enlaceinterno" >Enlace interno</a>
+<a href="https://www.w3schools.com/" >Elace a otra página</a>
+<a href="https://www.w3schools.com/" target="_blank" >Enlace a otra pagina (nueva pestaña)</a>
 </body>
