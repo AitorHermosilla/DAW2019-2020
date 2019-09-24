@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+EJERCICIO 4
+	Desarrolla una pagina web personal que sirva para mostrar los ejercicios que vamos realizando en clase.
+	La página web tendrá distintas secciones (mínimo 3), como por ejemplo:
+
+		-Sobre mi (About me)
+
+		-Mis Proyectos: debe contener información sobre las prácticas realizadas
+		(web del centro educativo y web sobre HTML5): nombre, breve descripción
+		y enlace (hipervínculo) al proyecto.
+
+		-Información de contacto.
+
+		Trata de utilizar distintos elementos utilizados en clase (listas, tablas,
+		elementos de texto, etc.)
+
+TIEMPO ESTIMADO: 30 mins
+-->
+
+<head>
+
+<meta charset="UTF-8"/>
+<meta name="description" content="Página con informaciós sobre Aitor Hermosilla"/>
+
+<title>Aitor Hermosilla</title>
+
+</head>
+<body>
+
+<h1>Aitor Hermosilla Garcia</h1>
+
+<!--Inicio Quien Soy-->
+<section class="quienSoy">
+
+<h2>¿Quien soy?</h2>
+
+<p>
+Nací el 17 de febrero de 1998 en Vitoria-Gasteiz desde pequeño Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Nam pellentesque mattis lectus, a consectetur quam interdum maximus.
+Cras tempor ante a mauris auctor elementum. Nam aliquet rhoncus libero, scelerisque cursus libero placerat at.
+Pellentesque auctor lacus vel justo sollicitudin, in volutpat est consequat. Nam malesuada enim at vehicula sodales. 
+Praesent quis tempor ante. Donec a lectus ac metus pretium gravida at nec felis. 
+Nulla tincidunt facilisis nulla, ac hendrerit ligula porttitor ac. Cras vitae nisl mollis justo hendrerit ultricies ac at ipsum. 
+Aenean molestie tellus at sapien cursus malesuada. Praesent aliquet scelerisque mauris, nec porta nulla mattis consectetur.  
+</p>
+
+<p>
+Suspendisse aliquet, sapien vel maximus eleifend, quam dolor semper magna, sed cursus nibh massa vitae dolor.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Vestibulum sit amet metus aliquam, imperdiet felis a, maximus mauris. Proin non porttitor lectus.
+Aenean eget ipsum mauris. Proin quis justo pharetra, dignissim leo non, ullamcorper urna.
+Curabitur fermentum, sapien sed auctor eleifend, ipsum lectus auctor felis, sit amet sodales odio eros ac ipsum.
+Pellentesque mattis leo ac ante vestibulum, at luctus mauris iaculis. Etiam interdum erat malesuada consequat euismod. Suspendisse sapien mauris, vehicula vel pellentesque ut, pulvinar vel ligula. Quisque ut porta elit. Ut quis semper turpis. Pellentesque sodales ligula in neque bibendum feugiat. Donec diam lectus, mollis id magna sit amet, egestas vestibulum diam. 
+</p>
+</section>
+<!--fin de Quien Soy-->
+
+<!--Inicio de Mis Proyectos-->
+<section class="misProyectos">
+
+<h2>Mis Proyectos</h2>
+
+<p>Estudio desarrollo de aplicaciones web durante el curso he realizado distintos proyectos que 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel congue mi. 
+Pellentesque lacus quam, volutpat iaculis arcu vitae, sodales fermentum metus. 
+Maecenas convallis commodo dictum. Maecenas vel quam lacus. Vivamus imperdiet semper lorem, 
+sed bibendum dolor vehicula feugiat. Mauris at consequat metus. Curabitur faucibus dui arcu, quis commodo 
+nisi sollicitudin nec. Aliquam erat volutpat. Nulla pulvinar ex quis euismod bibendum. 
+Curabitur efficitur mollis risus, vel sodales augue venenatis ac. Orci varius natoque penatibus et magnis dis 
+parturient montes, nascetur ridiculus mus. Proin sed dui felis. </p>
+
+<h3>Entre los proyectos realizados se encuentran:</h3>
+
+<table border="2">
+  <tr>
+    <th><a href="../ejercicio2/index.html"><img src="img/imgPaginaEgibide.png" alt="Página egibide" width="300px" height="200px"/></a></th>
+    <th>
+    Página dedicada a Egibide y aLorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+    Sed vel congue mi. Pellentesque lacus quam, volutpat iaculis arcu vitae, sodales<br/>
+    fermentum metus. Maecenas convallis commodo dictum. Maecenas vel quam lacus.<br/>
+    Vivamus imperdiet semper lorem, sed bibendum dolor vehicula feugiat. Mauris at consequat metus.<br/>
+    Curabitur faucibus dui arcu, quis commodo nisi sollicitudin nec. Aliquam erat volutpat. Nulla pulvinar <br/>
+    exquis euismod bibendum. Curabitur efficitur mollis risus, vel sodalesaugue venenatis ac.<br/>
+    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin sed dui felis.<br/>
+    </th>
+    <th>
+		<ul>
+			<h4>Elementos que contiene la página</h4>
+			
+			<li>Listas</li>
+				<ul>
+					<li>Anidadas</li>
+					<li>Sin anidar</li>
+				</ul>
+			<li>Tablas</li>
+			<li>Imagenes</li>
+		</ul>
+    </th>
+  </tr>
+  <tr>
+    <th><a href="../ejercicio3/index.html"><img src="img/imgPaginaHtml.png" alt="Página html" width="300px" height="200px"></th>
+    <th>
+    Página dedicada a html y aLorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+    Sed vel congue mi. Pellentesque lacus quam, volutpat iaculis arcu vitae, sodales<br/>
+    fermentum metus. Maecenas convallis commodo dictum. Maecenas vel quam lacus.<br/>
+    Vivamus imperdiet semper lorem, sed bibendum dolor vehicula feugiat. Mauris at consequat metus.<br/>
+    Curabitur faucibus dui arcu, quis commodo nisi sollicitudin nec. Aliquam erat volutpat. Nulla pulvinar <br/>
+    exquis euismod bibendum. Curabitur efficitur mollis risus, vel sodalesaugue venenatis ac.<br/>
+    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin sed dui felis.<br/>
+    </th>
+    <th>
+		<ul>
+			<h4>Elementos que contiene la página</h4>
+			
+			<li>Listas</li>
+				<ul>
+					<li>Anidadas</li>
+					<li>Ordenadas</li>
+					<li>Sin ordenar</li>
+				</ul>
+			<li>Tablas</li>
+			<li>Imagenes</li>
+		</ul>
+    </th>
+  </tr>
+</table>
+</section>
+<!--fin de Mis Proyectos-->
+
+<section>
+	<h2>Contacta Conmigo</h2>
+	
+	<table>
+  <tr>
+    <th>Redes Sociales</th>
+    <th>Teléfono</th>
+    <th>Dirección</th>
+  </tr>
+  <tr>
+    <td>
+    	<ul>
+   		<li><a href="https://twitter.com/guy_debord_?lang=es">Twitter</a></li>
+			<li><a href="https://es-es.facebook.com/tiqqunband/?ref=page_internal">Facebook</a></li>
+			<li><a href="https://www.instagram.com/explore/tags/osoperezoso/">Instagram</a></li>
+   	 </ul>
+    </td>
+    <td>
+    		<ul>
+    			<li>688412567</li>
+    			<li>954211158</li>
+    		</ul>
+    </td>
+    <td>
+		<ul>
+			<li>Personal: C:/Santa Inventada</li>
+			<li>Empresa: C:/ Avenida nide-coña 9</li>		
+		</ul>    
+    </td>
+  </tr>
+</table>	
+	
+</section>
+
+</body>
+</html>
