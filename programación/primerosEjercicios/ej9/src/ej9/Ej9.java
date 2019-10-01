@@ -18,6 +18,14 @@ public class Ej9 {
             JOptionPane.showMessageDialog(null, "Insuficiente");
         }else if (nota == 5){
             JOptionPane.showMessageDialog(null, "Suficiente");
+        }else if (nota <= 7){
+            JOptionPane.showMessageDialog(null,"Bien");
+        }else if (nota <= 9){
+            JOptionPane.showMessageDialog(null, "Notable");
+        }else if (nota <= 10){
+            JOptionPane.showMessageDialog(null, "Sobresaliente");
+        }else{
+            JOptionPane.showMessageDialog(null, "No has introducido un valor comprendido entre 0 y 10");
         }
         
     }
