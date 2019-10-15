@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B692D96-ABEA-C9FB-A92A-CF98E73E58D8" name="Camion">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:01:56 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matricula" id="EE9EA92A-0C66-766C-9EEB-1F1110DFE40F">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:02:16 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo" id="83E95586-3A11-CBF6-7F4A-85C415948F9B">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:02:33 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="EEE29B00-ED3B-3769-BAC6-758A65727776">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:03:20 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Potencia" id="49CB1F34-C9D0-0B87-C4E1-61DCE2C030B8">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:03:43 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C44C8E21-369B-467F-867E-18F05EE4D7A0" name="Camion PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:02:30 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE9EA92A-0C66-766C-9EEB-1F1110DFE40F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 3.1</title>
+    </head>
+
+    <body>
+        <main>
+            <fieldset>
+                <legend>Datos de usuario</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+
+                <br>
+                
+                <p>¿Eres socio?
+                <input type="radio" name="si" id="si" value="Sí"/> Sí, si soy socio
+                <input type="radio" name="no" id="no" value="No"/> No, no soy socio
+                </p>
+
+                <label for="Email">Email:</label>
+                <input type="email" id="Email">
+
+                <br/>
+
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña">
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de la reserva</legend>
+                <label for="edad">Edad:</label>
+
+                <select id="edad" name="edad">
+                    <option>Mayor de 18</option>
+                    <option selected>Menor de 18</option>
+                </select>
+                
+                <br/>
+
+                <p>Selecciona la fecha y la hora de reserva</p> 
+                <input type="datetime-local" name="Hora">
+
+                <br/>
+                <br/>
+
+                <textarea rows="12" cols="20">Comentarios</textarea>
+            </fieldset>
+        </main>
+
+    </body>
+</html>

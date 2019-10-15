@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8"/>
+<meta name="description" content="Impartimos Educación Secundaria Obligatoria (ESO), Bachillerato y Formación Profesional en 13 familias profesionales diferentes."/>
+
+<link rel="shortcut icon" href="img/logoEgibide.jpg" type="image/image/x-icon"/>
+<title>Egibide</title>
+
+</head>
+<body>
+
+<header>
+	
+	<hr/>
+	<h1>Egibide</h1>	
+	<hr/>
+	
+</header>
+
+<nav>
+<a href="desc">Descripción</a>
+<a href="ofer">Ofertas</a>
+<a href="trab">Trabaja con nosotros</a>
+<a href="cont">Contacto</a>
+</nav>
+
+<section class="descripcion">
+	<a name="desc"><h2>Descripción</h2></a>
+	<img src="img/imgPrincip" alt="https://www.egibide.org/diploas-demai-ix-egibide-arriaga/"/>
+</section>
+
+<section class="ofertas">
+
+</section>
+
+<section class="trabajo">
+
+</section>
+
+<section class="contactos">
+
+</section>
+
+</body>
+</html>

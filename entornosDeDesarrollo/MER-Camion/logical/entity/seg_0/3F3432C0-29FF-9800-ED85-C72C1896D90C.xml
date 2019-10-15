@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F3432C0-29FF-9800-ED85-C72C1896D90C" name="Camionero">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:54:06 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="F90863BA-9D54-A9EA-CAD7-0CB64F11D815">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:54:49 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="331DF42F-32F1-6D7A-6A4C-BB046FF79971">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:55:20 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="33E6A15E-1121-D202-A8AC-27069BCE997C">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:55:57 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="E87DC933-8574-6BE7-F0AC-5C562BE9E02C">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:56:28 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección" id="D9A41E05-4A29-1EB3-EAF1-83122DFF2D6F">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:56:56 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="5F2F0C18-B023-ED84-3D7C-BE7D04766B91">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:57:43 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Población" id="960DA99C-36D5-7887-8192-B979F2EBEBF1">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:58:04 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Paquete" id="6E30D331-B710-035D-4DA8-590245FC151C">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:05:42 UTC</createdTime>
+<generatorID>5CB657CE-72B6-3E7F-01DF-BDEF86F8E260</generatorID>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<referedAttribute>93A85C7D-6F3C-1275-09FF-7E935FC59AEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Provincia" id="3F00F1BD-0E4C-3444-6E9D-4CB55B82B5B6">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:06:17 UTC</createdTime>
+<generatorID>5CB657CE-72B6-3E7F-01DF-BDEF86F8E260</generatorID>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<referedAttribute>42221F18-754B-30A5-8B0D-C38BE53735CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E925683-BAB8-B2DE-E592-7088BCE530E9" name="Camionero PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 11:55:04 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F90863BA-9D54-A9EA-CAD7-0CB64F11D815</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

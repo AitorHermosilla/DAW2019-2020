@@ -1,0 +1,78 @@
+<!DOCTYPE html/>
+
+<!-- Primer trabajo de LMSG -->
+
+<html>
+<head>
+
+<meta charset="UTF-8"/>
+<meta name="description" content="Practica 1: enlaces"/>
+
+<title>ENLACES</title>
+
+</head>
+
+<body>
+
+<a name="volver"><h1>ENLACES</h1></a>
+
+<a href="https://www.w3schools.com/" >Es un enlace a una página externa que se abre en la misma pestaña que la actual</a>
+<hr/>
+<a href="https://www.w3schools.com/"  target="_blank" >Es un enlace a una página externa que se abre en otra pestaña</a>
+<hr/>
+<a href="segunda.html" >Es un enlace a una página propia (segunda.html) que se encuentra en el mismo 
+directorio que nuestro index.html</a>
+<hr/>
+<a href="../tercero.html" >Es un enlace a una página propia (tercera.html) que se encuentra en un 
+directorio superior al que nos encontramos.</a>
+<hr/>
+<a href="cuarta/cuarta.html" >Es un enlace a una página propia (cuarta.html) que se encuentra en un directorio
+situado en la misma carpeta que el index.html</a>
+<hr/>
+<a href="#enlaceinterno" >Es un enlace a una sección que se encuentra más abajo (podemos hacer que esté 
+abajo con &#60;br&#62;)</a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="enlaceinterno" ><h2>Has llegado a la sección</h2></a>
+<a href="#volver" >volver arriba</a>
+
+</body>
+</html>

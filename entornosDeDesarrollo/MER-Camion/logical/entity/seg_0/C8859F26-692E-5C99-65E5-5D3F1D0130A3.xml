@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8859F26-692E-5C99-65E5-5D3F1D0130A3" name="Provincia">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:00:45 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Provincia" id="BCAC5E1E-F390-B35B-D62C-03BC3C27732B">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:00:57 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="465D0574-7278-5BC9-408B-6DC48680C625">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:01:15 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EBA7B86-E58D-82B2-BAC4-08AEF4AE9AEC" name="Provincia PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-11 12:01:13 UTC</createdTime>
+<ownerDesignName>MER-Camion</ownerDesignName>
+<engineerTo>
+<item key="DD248D5C-EDB2-FAC1-E25D-9636EC5866B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCAC5E1E-F390-B35B-D62C-03BC3C27732B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
