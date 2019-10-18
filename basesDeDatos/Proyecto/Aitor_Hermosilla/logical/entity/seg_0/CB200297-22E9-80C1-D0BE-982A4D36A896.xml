@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB200297-22E9-80C1-D0BE-982A4D36A896" name="Planeta">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:28:36 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Planeta" id="733E9841-35C1-9EB9-96B1-DAA06133E4B8">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:28:47 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="5ED2FE9F-E729-F625-4F08-D24C052A51FD">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:29:01 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Galaxia" id="EF089DD8-140C-7F09-FA8C-A20F5DC1C4E8">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:29:24 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52330FF2-A8D6-7C6D-E683-26C0CCBD92FA" name="Planeta PK">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:28:59 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>733E9841-35C1-9EB9-96B1-DAA06133E4B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

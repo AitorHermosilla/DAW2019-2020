@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7ED9B6A-E27B-F4D7-68E6-00F54352EAE7" name="DesarrollarTrama">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:32:23 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TramaDeMision" id="D87D6760-9A17-179B-7BFD-B5A4D693AAE5">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:46:48 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroDeTripulantes" id="121ED4F3-2E5D-9E65-5EA0-109667BAAD19">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:47:23 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

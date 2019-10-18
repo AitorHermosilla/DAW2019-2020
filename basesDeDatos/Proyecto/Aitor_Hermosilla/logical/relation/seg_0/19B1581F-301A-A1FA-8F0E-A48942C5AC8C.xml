@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participar" directorySegmentName="seg_0" id="19B1581F-301A-A1FA-8F0E-A48942C5AC8C">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:43:08 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Participar</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF365400-C1D7-CFFE-8C02-C44206F81927</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1800EE91-949E-889B-412A-C8B5F6741E1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

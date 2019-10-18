@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nacionalizar" directorySegmentName="seg_0" id="910B1638-A782-A257-2A2E-BCA8E7B0797F">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:43:45 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Nacionalizar</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>18426431-EC0E-3EA0-3E7E-69AFC612342C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8730600-D913-5ECA-57D7-DE8CFC749DC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

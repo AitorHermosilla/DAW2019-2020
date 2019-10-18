@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Proyecto_bases_entornos" id="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" mainViewID="9E71C352-E7ED-F25F-512A-FEBE987E6D38">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:00:38 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

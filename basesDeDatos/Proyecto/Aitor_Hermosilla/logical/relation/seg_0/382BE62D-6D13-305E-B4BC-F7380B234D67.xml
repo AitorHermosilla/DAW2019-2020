@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Actuar" directorySegmentName="seg_0" id="382BE62D-6D13-305E-B4BC-F7380B234D67">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:39:32 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Actuar</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF365400-C1D7-CFFE-8C02-C44206F81927</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF232198-CCA9-910C-A406-3781665A0FE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

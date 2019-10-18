@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Visitar" directorySegmentName="seg_0" id="64FDB064-B29F-3B34-DBFA-665F7E5598A4">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:36:10 UTC</createdTime>
+<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Visitar</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CB200297-22E9-80C1-D0BE-982A4D36A896</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7ED9B6A-E27B-F4D7-68E6-00F54352EAE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
