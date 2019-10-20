@@ -2,13 +2,12 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="6833E7A0-574D-4C8A-BD73-262A5B5E5D68">
 <createdBy>hermodebian</createdBy>
 <createdTime>2019-10-18 11:34:45 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
-<sourcePk>515BAC1F-86B0-5171-CB23-5BC608230D71</sourcePk>
+<sourcePk>8722DFAB-48B1-A2A1-5952-E2207B6FEF16</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>EntidadDebil</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

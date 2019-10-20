@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Depender" directorySegmentName="seg_0" id="BCA87064-C01D-887F-6E40-2385E556350C">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:41:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<targetPk>88FEE901-86A5-1089-8B66-6B6D5D9DE9D1</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Depender</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF232198-CCA9-910C-A406-3781665A0FE0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AF232198-CCA9-910C-A406-3781665A0FE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Viajar" directorySegmentName="seg_0" id="B5637CAA-71F6-46F7-4ECC-B968D4BA3236">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:35:41 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Viajar</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B03ADE7A-32EE-319C-0C22-EA1E2F5E5D1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7ED9B6A-E27B-F4D7-68E6-00F54352EAE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

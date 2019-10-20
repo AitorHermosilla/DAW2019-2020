@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A79991D-B7A6-6B0E-DD03-7355CAD1CD9B" name="Lanzadera">
 <createdBy>hermodebian</createdBy>
 <createdTime>2019-10-18 11:33:06 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="Cod_Lanzadera" id="4A5549EC-A427-8E5E-32B9-D919CBE7945F">
 <createdBy>hermodebian</createdBy>
 <createdTime>2019-10-18 11:33:13 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="Capacidad" id="71D30BFB-2BF7-9861-2534-A49C2841064E">
 <createdBy>hermodebian</createdBy>
 <createdTime>2019-10-18 11:33:34 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -39,29 +39,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cod_Nave" id="407F20F2-19F3-D1CB-22A4-8976E101B5C5">
+<Attribute name="Cod_Lanzadera1" id="158EC5D4-A2CC-B365-4CD0-FA235E8FC79A">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:52:59 UTC</createdTime>
-<generatorID>C492F5DD-7E8E-7011-83DF-BD3120F7516B</generatorID>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
-<engineerTo>
-<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
-</engineerTo>
-<referedAttribute>E0213062-D80A-0FE4-23A0-A9D405098D01</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Cod_Nave1" id="50A1466C-1468-03F1-2C0D-7E5A54E39BFE">
-<createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:53:29 UTC</createdTime>
+<createdTime>2019-10-18 11:35:34 UTC</createdTime>
 <generatorID>6833E7A0-574D-4C8A-BD73-262A5B5E5D68</generatorID>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
-<referedAttribute>E0213062-D80A-0FE4-23A0-A9D405098D01</referedAttribute>
+<referedAttribute>4A5549EC-A427-8E5E-32B9-D919CBE7945F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -72,7 +58,7 @@
 <identifier id="8722DFAB-48B1-A2A1-5952-E2207B6FEF16" name="Lanzadera PK">
 <createdBy>hermodebian</createdBy>
 <createdTime>2019-10-18 11:33:32 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>

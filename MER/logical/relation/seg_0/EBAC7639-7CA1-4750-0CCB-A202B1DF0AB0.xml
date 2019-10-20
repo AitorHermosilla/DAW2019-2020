@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realizar" directorySegmentName="seg_0" id="EBAC7639-7CA1-4750-0CCB-A202B1DF0AB0">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:36:31 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Realizar</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1800EE91-949E-889B-412A-C8B5F6741E1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7ED9B6A-E27B-F4D7-68E6-00F54352EAE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

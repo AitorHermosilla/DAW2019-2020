@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER" id="FBBF406B-31D1-BAA5-CB00-71303A3C3232" version="3.5">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:00:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FBBF406B-31D1-BAA5-CB00-71303A3C3232</designId>
+</OSDM_Design>

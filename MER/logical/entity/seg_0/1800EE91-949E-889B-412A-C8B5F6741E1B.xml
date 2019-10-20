@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A79991D-B7A6-6B0E-DD03-7355CAD1CD9B" name="Lanzadera">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1800EE91-949E-889B-412A-C8B5F6741E1B" name="Capitulo">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:33:06 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:10:35 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Cod_Lanzadera" id="4A5549EC-A427-8E5E-32B9-D919CBE7945F">
+<Attribute name="Cod_Capitulo" id="68EF2C9D-6562-0B47-25CA-5BBD658F753D">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:33:13 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:10:45 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -27,10 +27,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Capacidad" id="71D30BFB-2BF7-9861-2534-A49C2841064E">
+<Attribute name="Temporada" id="B2BEC6F4-0D10-8CCA-30D1-8B247286C226">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:33:34 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:12:54 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
@@ -39,46 +39,55 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cod_Nave" id="407F20F2-19F3-D1CB-22A4-8976E101B5C5">
+<Attribute name="Titulo" id="3665947D-BAF4-691E-AEB6-F1B238603A48">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:52:59 UTC</createdTime>
-<generatorID>C492F5DD-7E8E-7011-83DF-BD3120F7516B</generatorID>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:13:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
-<referedAttribute>E0213062-D80A-0FE4-23A0-A9D405098D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrdenDeRodaje" id="4658C645-0242-C7F1-16F4-D775F2EEB526">
+<createdBy>hermodebian</createdBy>
+<createdTime>2019-10-18 11:14:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cod_Nave1" id="50A1466C-1468-03F1-2C0D-7E5A54E39BFE">
+<Attribute name="FechaPrimeraEdicion" id="D233552C-88A8-F945-C5FD-062F5EA43C99">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:53:29 UTC</createdTime>
-<generatorID>6833E7A0-574D-4C8A-BD73-262A5B5E5D68</generatorID>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:16:14 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
-<referedAttribute>E0213062-D80A-0FE4-23A0-A9D405098D01</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8722DFAB-48B1-A2A1-5952-E2207B6FEF16" name="Lanzadera PK">
+<identifier id="882E2383-6872-2143-37B5-9B0044FBDE11" name="Capitulo PK">
 <createdBy>hermodebian</createdBy>
-<createdTime>2019-10-18 11:33:32 UTC</createdTime>
-<ownerDesignName>Aitor_Hermosilla</ownerDesignName>
+<createdTime>2019-10-18 11:12:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="B42DDCC9-ECDD-11EA-F0B7-80A514B67A77" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4A5549EC-A427-8E5E-32B9-D919CBE7945F</attributeRef>
+<attributeRef>68EF2C9D-6562-0B47-25CA-5BBD658F753D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
