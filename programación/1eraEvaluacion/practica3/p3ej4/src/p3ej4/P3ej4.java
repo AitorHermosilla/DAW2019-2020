@@ -3,6 +3,9 @@
 package p3ej4;
 
 import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -15,10 +18,10 @@ public class P3ej4 {
      */
     public static void main(String[] args) {
         
-        switch(Integer.parseInt(JOptionPane.showInputDialog(null,"\"Bien venid@ al programa de calcular fechas\"\n" +
-                                                            "+ \"\\n 1-Clase Date\"\n" +
-                                                            "+ \"\\n 2-Clase Calendar\"\n" +
-                                                            "+ \"\\n 3-Clase LocalDate\""))){
+        switch(Integer.parseInt(JOptionPane.showInputDialog(null,"\"Bien venid@ al programa de calcular fechas" +
+                                                            "\n 1-Clase Date" +
+                                                            "\n 2-Clase Calendar"+
+                                                            "\n 3-Clase LocalDate"))){
             case 1:ClaseDate();
                 break;
             case 2:ClaseCalendar();
@@ -49,7 +52,7 @@ public class P3ej4 {
             }
         }while(error);
         
-        JOptionPane.showMessageDialog(null, fechaUno.getTime() - fechaDos.getTime());
+        JOptionPane.showMessageDialog(null, (fechaUno.getTime() - fechaDos.getTime())/86400000 + " Dias");
     }
     public static void ClaseCalendar(){
         
@@ -65,11 +68,31 @@ public class P3ej4 {
         
             cal.setTime(formato.parse(fechaUno));
         
-            cal.setTime(formato.parse(fechaDos));
+            calDos.setTime(formato.parse(fechaDos));
+            
+            JOptionPane.showMessageDialog(null, (cal.getTimeInMillis()-calDos.getTimeInMillis())/86400000);
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "Error");
         }
 
+    }
+    public static void ClaseLocalDate(){
+        
+        try{
+            String fechaUno = JOptionPane.showInputDialog("Introduzca la fecha uno con el siguiente formato: dd/MM/aa");
+            String fechaDos = JOptionPane.showInputDialog("Introduzca la segunda fecha con el mismo formato: dd/MM/aa");
+            
+            DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+            
+            LocalDate fecha1 = LocalDate.parse(fechaUno, formato);
+            LocalDate fecha2 = LocalDate.parse(fechaDos, formato);
+            
+            Duration duration = Duration.between(fecha1, fecha2);
+            JOptionPane.showMessageDialog(null, duration);
+            
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Error");
+        }
     }
     
 }
