@@ -2,7 +2,7 @@ EXAMENES:
 
 ED-----> 15 de noviembre
 
-BD-----> 31 de octubre
+BD------> 15 de noviembre
 
 LMGS-----> 7 de noviembre
 
