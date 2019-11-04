@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>1</legend>
+                <fieldset>
+                    <legend>2</legend>
+                    <br/>
+                    <label>EN EL 2</label><br/>
+                    <input type="text"/>
+                </fieldset>
+                <label>EN EL 1</label><br/>
+                <input type="text"/>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Ejercicio 2</legend>
+                <br/>
+                <label>Selecciona uno:</label><br/>
+
+                <label for="Coche">Coche</label>
+                <input type="radio" id="Coche"/>
+
+                <label for="Moto">Moto</label>
+                <input type="radio" id="Moto"/>
+
+                <label for="Patinete">Patinete</label>
+                <input type="radio" id="Patinete"/>
+
+                <label for="Autobus">Autobus</label>
+                <input type="radio" id="Autobús"/>
+
+                <br/>
+                <br/>
+
+                <label>Añade uno o varios accesorios</label>
+                <br/>
+
+                <input type="checkbox" id="Casco"/>
+                <label for="Casco">Casco</label>
+
+                <input type="checkbox" id="Timbre"/>
+                <label for="Timbre">Timbre</label>
+
+                <input type="checkbox" id="Chubasquero"/>
+                <label for="Chubasquero">Chubasquero</label>
+
+                <input type="checkbox" value="Candado"/>
+                <label name="Candado">Candado</label>
+            </fieldset>
+        </form>
+            <fieldset>
+                <legend>Selector</legend>
+
+                <select>
+                    <optgroup label="Café">
+                    <option>Colombia</option>
+                    <option>Cuba</option>
+                    <option>Kenia</option>
+                </optgroup>
+                    <optgroup label="Té">
+                    <option>Rojo</option>
+                    <option>Chai</option>
+                    <option>Verde</option>
+                </optgroup>
+                </select>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Ha ganado un smartphone</legend>
+                <br/>
+                <label>Introduzca sus datos</label>
+                <br/>
+
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre">
+                <br/>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido">
+                <br/>
+                <label for="Teléfono">Teléfono:</label>
+                <input type="text" id="Teléfono">
+
+                <br>
+                <br>
+
+                <label>Elija el teléfono adquirido</label>
+
+                <br/>
+
+                <label for="Iphone" name="Tel">Iphone</label>
+                <input type="radio" id="Iphone" name="Tel">
+
+                <br>
+
+                <label for="Samsung" >Samsung</label>
+                <input type="radio" id="Samsung" name="Tel">
+
+                <br>
+
+                <label for="Xiaomi">Xiaomi</label>
+                <input type="radio" id="Xiaomi" name="Tel">
+
+                <br>
+
+                <input type="number" max="10">
+                <input type="submit" value="Enviar">
+
+
+            </fieldset>
+        </form>
+
+        <form action="html/enviado.html">
+            <fieldset>
+                <h1>LOGIN</h1>
+
+                <input type="text" placeholder="Usuario"/><br/>
+                <input type="password" placeholder="Contraseña"/><br/>
+                <br/>
+                <br/>
+                <input type="submit" value="Login">
+            </fieldset>
+        </form>
+
+        <form action="html/enviado.html">
+            <label for="Text">Text</label>
+            <input type="text" size="20px">
+            <br>
+            <label for="Pass">Password</label>
+            <input type="password" id="Pass" size="10px">
+
+            <br>
+            
+            <label>Select:</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+
+            <br/>
+
+            <label>Select2:</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+
+            <br/>
+            <label>Radio</label>
+            <br>
+            <input type="radio" id="Yes">
+            <label for="Yes">YES</label>
+
+            <br>
+
+            <input type="radio" id="NO">
+            <label for="NO">NO</label>
+
+            <br>
+
+            <label>Radio 2:</label>
+
+            <input type="radio" id="YES">
+            <label for="YES">YES</label>
+
+            <input type="radio" id="no">
+            <label for="no">NO</label>
+
+            <br/>
+
+            <label for="Check">Check</label>
+            <input type="checkbox" id="Check"/>
+
+            <br>
+
+            <label>Submit:</label>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </form>
+    </body>
+</html>

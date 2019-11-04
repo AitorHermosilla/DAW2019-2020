@@ -3,6 +3,7 @@
 package p3ej4;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
@@ -48,7 +49,27 @@ public class P3ej4 {
             }
         }while(error);
         
-        JOptionPane.showMessageDialog(null, fechaUno.getTime() - fechaDos.getTime();
+        JOptionPane.showMessageDialog(null, fechaUno.getTime() - fechaDos.getTime());
+    }
+    public static void ClaseCalendar(){
+        
+        try{
+            String fechaUno = JOptionPane.showInputDialog("Introduzca la fecha uno con el siguiente formato: dd/MM/aa");
+            String fechaDos = JOptionPane.showInputDialog("Introduzca la segunda fecha con el mismo formato: dd/MM/aa");
+        
+            Calendar cal = Calendar.getInstance();
+        
+            Calendar calDos = Calendar.getInstance();
+        
+            SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yy");
+        
+            cal.setTime(formato.parse(fechaUno));
+        
+            cal.setTime(formato.parse(fechaDos));
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Error");
+        }
+
     }
     
 }
