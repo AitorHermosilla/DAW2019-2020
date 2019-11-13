@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+p,h1{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+}
+h1:hover{
+    background: darkred;
+}
+
+h1{
+    background: darkmagenta;
+    font-size: 80px;
+    border-left: deeppink;
+    border-style: outset;
+    border-width: 10px;
+}
+
+p{
+    color:ghostwhite;
+    background: maroon;
+    font-size: 40px;
+}
