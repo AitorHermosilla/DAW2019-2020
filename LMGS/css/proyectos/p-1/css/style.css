@@ -1,0 +1,32 @@
+body{
+    background-color: lightgrey;
+    font-family: arial;
+}
+
+main{
+    max-width: 500px;
+    border: 2px;
+    padding: 40px;
+    background-color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.1em;
+}
+h2{
+    max-width: 70%;
+    text-decoration: dotted;
+    font-size: 0.7em;
+    border-bottom: 2px dashed aquamarine;
+}
+p{
+    margin-left: 20px;
+    font-size: 0.6em;
+}
+a{
+    color: aquamarine;
+}

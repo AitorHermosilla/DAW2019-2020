@@ -1,0 +1,28 @@
+body{
+    background-color: #f7f7f7;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../img/paisaje.jpg);
+    max-height: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+main{
+    text-align: justify;
+    font-family: helvetica;
+    max-width: 600px;
+    font-size: 0.8em;
+    line-height: 120%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+}
+a{
+    color: cyan;
+    text-decoration: underline;
+}
