@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPART" directorySegmentName="seg_0" id="A3BFBC49-1BC8-C3FB-3991-72EA694FD707">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:39 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<schemaObject>4ED91834-F83C-E3FA-771F-4BF937A3BB24</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>47C80002-69CB-865E-99CB-89603D105105</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPT_NO" id="746A17CB-4A84-0EF7-D9E8-CE422579B4B7">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNOMBRE" id="7A57D455-1442-B044-1A1A-EF132C320B81">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC" id="F6A525D9-66CB-5225-20FF-4D8EEC7A0CF3">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEP_PK" id="01F64A19-0381-F39C-E4E9-AD5294C2524C">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:42 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<schemaObject>4ED91834-F83C-E3FA-771F-4BF937A3BB24</schemaObject>
+<segment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEP_PK" id="ADF65199-3BA4-3BEB-EC83-84AC5B08083F">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<segment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+<existingIndex>01F64A19-0381-F39C-E4E9-AD5294C2524C</existingIndex>
+<indexSegment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

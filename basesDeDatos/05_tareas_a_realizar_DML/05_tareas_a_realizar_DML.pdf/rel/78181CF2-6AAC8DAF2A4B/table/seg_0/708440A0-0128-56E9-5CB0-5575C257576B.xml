@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="708440A0-0128-56E9-5CB0-5575C257576B" schemaObject="4ED91834-F83C-E3FA-771F-4BF937A3BB24" name="EMPLE">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPLE</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:39 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="23690BBA-F6F6-C510-CAF4-34AFF3782BA9">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>EMP_NO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="503D1313-038C-D524-D89D-C1A8AC44CE86">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>APELLIDO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICIO" id="9D88AF7E-7763-D91C-0D96-B3F57974C73A">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>OFICIO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JEFE" id="7F4BFE39-6B7A-9647-63CC-E51FC4440A84">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>ID_JEFE</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D457EEE3-119E-D749-1B63-30B547C1D45B" referredColumn="23690BBA-F6F6-C510-CAF4-34AFF3782BA9"/>
+</associations>
+</Column>
+<Column name="FECHA_ALTA" id="34FB3F97-4916-6C3F-CF38-C6496D7DBE86">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>FECHA_ALTA</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="39A419D2-788E-12A7-2E4A-82AD1E4C67CD">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>SALARIO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION_PCT" id="43756C9A-3655-BCFE-7F74-FF4F68314EE6">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>COMISION_PCT</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NO" id="AC20666E-BAF1-8D5C-A8B5-9938B0BE2666">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>EMPLE</sourceObjSchema>
+<sourceObjName>DEPT_NO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADC6F7B8-8BE9-0E74-ABE2-F3A09EA1CAC2" referredColumn="746A17CB-4A84-0EF7-D9E8-CE422579B4B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45168AFD-0822-944E-B0F8-EB8B690B180B" name="EMPLE_PK">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPLE_PK</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23690BBA-F6F6-C510-CAF4-34AFF3782BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92D2FC6E-8FC3-BDC4-972B-A281E74B1EDD" schemaObject="4ED91834-F83C-E3FA-771F-4BF937A3BB24" name="EMPLE_PK">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPLE_PK</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:42 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23690BBA-F6F6-C510-CAF4-34AFF3782BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="285A0DFD-D477-0A92-0386-59A7D48460B4" name="EMPLE_DEP_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC20666E-BAF1-8D5C-A8B5-9938B0BE2666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DD6958D-1DF9-E1A4-D68B-1C3D473B2800" name="EMPLE_DIR_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F4BFE39-6B7A-9647-63CC-E51FC4440A84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

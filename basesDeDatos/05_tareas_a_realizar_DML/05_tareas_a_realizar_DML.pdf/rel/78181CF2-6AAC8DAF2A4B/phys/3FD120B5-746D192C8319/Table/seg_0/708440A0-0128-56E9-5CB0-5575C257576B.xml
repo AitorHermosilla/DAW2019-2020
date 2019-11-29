@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLE" directorySegmentName="seg_0" id="708440A0-0128-56E9-5CB0-5575C257576B">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:39 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<schemaObject>4ED91834-F83C-E3FA-771F-4BF937A3BB24</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>47C80002-69CB-865E-99CB-89603D105105</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMP_NO" id="23690BBA-F6F6-C510-CAF4-34AFF3782BA9">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_ALTA" id="34FB3F97-4916-6C3F-CF38-C6496D7DBE86">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="39A419D2-788E-12A7-2E4A-82AD1E4C67CD">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMISION_PCT" id="43756C9A-3655-BCFE-7F74-FF4F68314EE6">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="503D1313-038C-D524-D89D-C1A8AC44CE86">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_JEFE" id="7F4BFE39-6B7A-9647-63CC-E51FC4440A84">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFICIO" id="9D88AF7E-7763-D91C-0D96-B3F57974C73A">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="AC20666E-BAF1-8D5C-A8B5-9938B0BE2666">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMPLE_PK" id="92D2FC6E-8FC3-BDC4-972B-A281E74B1EDD">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:42 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<schemaObject>4ED91834-F83C-E3FA-771F-4BF937A3BB24</schemaObject>
+<segment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DEP_FK" id="285A0DFD-D477-0A92-0386-59A7D48460B4">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DIR_FK" id="4DD6958D-1DF9-E1A4-D68B-1C3D473B2800">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLE_PK" id="45168AFD-0822-944E-B0F8-EB8B690B180B">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<segment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</segment>
+<tableSpace>D36CFBD3-71A3-178E-CCB0-AC3E4C8DD013</tableSpace>
+<existingIndex>92D2FC6E-8FC3-BDC4-972B-A281E74B1EDD</existingIndex>
+<indexSegment>D0E22366-07B4-E9E5-C21F-F60DB7F2E8D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

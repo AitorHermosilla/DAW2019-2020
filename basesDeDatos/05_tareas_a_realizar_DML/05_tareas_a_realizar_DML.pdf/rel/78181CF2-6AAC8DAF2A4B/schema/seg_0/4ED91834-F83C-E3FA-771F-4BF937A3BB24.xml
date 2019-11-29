@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SCOTT" directorySegmentName="seg_0" id="4ED91834-F83C-E3FA-771F-4BF937A3BB24">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:39 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<importedID>C5CF2C01-00FA-EDD6-DECE-E296C2999DAF</importedID>
+</SchemaObject>

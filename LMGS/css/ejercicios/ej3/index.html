@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="StyleSheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+        <fieldset>
+            <legend>Contacta con nosotros</legend>
+
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre"/>
+
+            <br/>
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido">
+
+            <br/>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email">
+
+            <br/>
+            <br/>
+
+            <label for="Sexo">Sexo:</label>
+
+            <br/>
+
+            <label for="Hombre">Hombre</label>
+            <input type="radio" name="sexo" id="Hombre"/>
+
+            <label for="Mujer">Mujer</label>
+            <input type="radio" name="sexo" id="Mujer"/>
+
+            <label for="NoEspecificado">No especificado</label>
+            <input type="radio" name="sexo" id="NoEspecificado"/>
+
+            <br/>
+            <br/>
+
+            <input type="checkbox" id="Terminos"/>
+            <label for="Terminos">He leido y acepto las condiciones y terminos de uso</label>
+
+            <br/>
+            <br/>
+
+            <label for="MetodoDePago">Metodo de pago:</label>
+            <select id="MetodoDePago">
+                <option>Efectivo</option>
+                <option>Contrareembolso</option>
+                <optgroup label="Tarjetas">
+                    <option>Master Card</option>
+                    <option selected>Visa</option>
+                    <option>Tarjeta de Compra del Corte Ingles</option>
+                </optgroup>
+            </select>
+
+            <br/>
+            <br/>
+
+            <label for="comentarios">Comentarios:</label>
+
+            <br/>
+
+            <textarea>Escriba aqui sus comentarios</textarea>
+
+            <br/>
+            <br/>
+            <center>
+                <input type="submit" value="Enviar">
+            </center>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,21 +1,15 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+2. Crea un array de numeros donde le indicamos por teclado el tamaño˜
+del array, rellenaremos el array con numeros aleatorios entre 0 y 9,
+al final muestra por pantalla el valor de cada posicion y la suma de
+todos los valores.
  */
 package t4ej2;
 
-/**
- *
- * @author root
- */
 public class T4ej2 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }

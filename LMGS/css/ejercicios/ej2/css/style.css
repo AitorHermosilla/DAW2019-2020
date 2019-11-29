@@ -1,0 +1,22 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+h2{
+    border-bottom: 1px solid aquamarine;
+    font-size: 15px;
+}
+
+.pBloque{
+    border-style: solid;
+    border-width: 2px;
+}
+
+.pGrisClaro{
+    background-color: #F6F6F6;
+}
+
+.pGrisOscuro{
+    background-color: #D7D7D7;
+}

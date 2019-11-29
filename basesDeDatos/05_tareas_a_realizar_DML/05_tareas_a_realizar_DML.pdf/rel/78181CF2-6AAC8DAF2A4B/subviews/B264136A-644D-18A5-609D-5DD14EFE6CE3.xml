@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="B264136A-644D-18A5-609D-5DD14EFE6CE3">
+<createdBy>root</createdBy>
+<modifiedBy>root</modifiedBy>
+<createdTime>2019-11-28 11:34:38 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="708440A0-0128-56E9-5CB0-5575C257576B" otype="Table" vid="B393D862-A0F0-0DB3-EF96-58F16BAB534E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="248" height="199"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A3BFBC49-1BC8-C3FB-3991-72EA694FD707" otype="Table" vid="8CA02936-8844-5659-342A-68F8AC5F055F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="279" width="217" height="102"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="ADC6F7B8-8BE9-0E74-ABE2-F3A09EA1CAC2" otype="FKIndexAssociation" vid_source="8CA02936-8844-5659-342A-68F8AC5F055F" vid_target="B393D862-A0F0-0DB3-EF96-58F16BAB534E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="128" y="279"/>
+<point x="128" y="219"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D457EEE3-119E-D749-1B63-30B547C1D45B" otype="FKIndexAssociation" vid_source="B393D862-A0F0-0DB3-EF96-58F16BAB534E" vid_target="B393D862-A0F0-0DB3-EF96-58F16BAB534E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="268" y="137"/>
+<point x="293" y="137"/>
+<point x="293" y="244"/>
+<point x="165" y="244"/>
+<point x="165" y="219"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D6B8E1E4-FC07-2060-A6B2-BE74FD2D7070" mainViewID="2C715EF6-6714-4F58-E3EA-C3DFE00C2D6D">
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:33:52 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3BFBC49-1BC8-C3FB-3991-72EA694FD707" schemaObject="4ED91834-F83C-E3FA-771F-4BF937A3BB24" name="DEPART">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>DEPART</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:38 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_NO" id="746A17CB-4A84-0EF7-D9E8-CE422579B4B7">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>DEPART</sourceObjSchema>
+<sourceObjName>DEPT_NO</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNOMBRE" id="7A57D455-1442-B044-1A1A-EF132C320B81">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>DEPART</sourceObjSchema>
+<sourceObjName>DNOMBRE</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="F6A525D9-66CB-5225-20FF-4D8EEC7A0CF3">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>DEPART</sourceObjSchema>
+<sourceObjName>LOC</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:40 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADF65199-3BA4-3BEB-EC83-84AC5B08083F" name="DEP_PK">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>DEP_PK</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:43 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746A17CB-4A84-0EF7-D9E8-CE422579B4B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01F64A19-0381-F39C-E4E9-AD5294C2524C" schemaObject="4ED91834-F83C-E3FA-771F-4BF937A3BB24" name="DEP_PK">
+<sourceConnName>Scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>DEP_PK</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2019-11-28 11:34:42 UTC</createdTime>
+<ownerDesignName>05_tareas_a_realizar_DML.pdf</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746A17CB-4A84-0EF7-D9E8-CE422579B4B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

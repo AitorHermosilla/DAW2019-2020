@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+body{
+    font-family: 'Gupter', serif;
+}
+h1{
+    width: 50%;
+    height: 50%;
+    font-size: 50px;
+    color: rebeccapurple;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 2px 2px 0 #AAA,
+    6px 6px 2px #777,
+    12px 12px 8px #444;
+}
+fieldset{
+    border: 3px double;
+}
+form{
+    margin: 0 auto;
+    background-color: lemonchiffon;
+    width: 50%;
+    height: 50%;
+    box-shadow: 2px 2px 0 #AAA,
+    6px 6px 2px #777,
+    12px 12px 8px #444;
+}
+input{
+    background-color: lightyellow;
+    margin: 5px;
+}
+input:hover{
+    background: white;
+}
+input[type="text"]{
+    border: 0;
+    border-bottom: 3px dashed springgreen;
+}
+input[type="email"]{
+    border: 0;
+    border-bottom: 3px dashed darkred;
+}
+input[type="checkbox"]{
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+label[for="Terminos"]{
+    font-size: 25px;
+}
+input[type="submit"]{
+    border: 3px groove cyan;
+    background-color: lightcyan;
+    width: 200px;
+    height: 100px;
+    display: block;
+    text-align: center;
+}
+
